@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MiamiPS 🌴🌄</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: white;
+    background: linear-gradient(-45deg, #ff00cc, #3333ff, #00ffff, #ff0080);
+    background-size: 400% 400%;
+    animation: gradientBG 12s ease infinite;
+}
+
+/* Animated Gradient */
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.container {
+    background: rgba(0,0,0,0.5);
+    padding: 50px;
+    border-radius: 25px;
+    text-align: center;
+    width: 90%;
+    max-width: 550px;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255,255,255,0.2);
+    box-shadow: 0 0 40px #ff00cc, 0 0 80px #00ffff;
+}
+
+h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    color: #fff;
+    text-shadow: 0 0 10px #ff00cc,
+                 0 0 20px #ff00cc,
+                 0 0 40px #00ffff;
+}
+
+.status {
+    color: #00ff88;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-shadow: 0 0 10px #00ff88;
+}
+
+p {
+    font-size: 0.9rem;
+    margin-bottom: 35px;
+    line-height: 1.5;
+}
+
+.btn {
+    display: block;
+    margin: 12px 0;
+    padding: 14px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+    letter-spacing: 1px;
+}
+
+.whatsapp {
+    background: #25D366;
+    box-shadow: 0 0 15px #25D366;
+    color: white;
+}
+
+.host {
+    background: #ff0080;
+    box-shadow: 0 0 15px #ff0080;
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 25px white;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.7rem;
+    opacity: 0.6;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>MiamiPS 🌴🌄</h1>
+    <div class="status">Server Online 🟢</div>
+    <p>
+        MIAMI PS ADL PRIVATE SERVER YANG MEMILIKI BANYAK FITUR DAN CITEM 
+        TIDAK HANYA ITU EVENT²NYA BAGUS DAN BANYAK GIVEAWAYNYA.
+    </p>
+
+    <a href="https://chat.whatsapp.com/ISI_LINK_KAMU" class="btn whatsapp">Grup WhatsApp</a>
+    <a href="http://ISI_LINK_HOST_KAMU.com" class="btn host">Host Server</a>
+
+    <footer>© 2026 MiamiPS</footer>
+</div>
+
+</body>
+</html>
