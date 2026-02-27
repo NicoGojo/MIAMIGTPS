@@ -114,8 +114,8 @@ footer {
         TIDAK HANYA ITU EVENT²NYA BAGUS DAN BANYAK GIVEAWAYNYA.
     </p>
 
-    <a href="https://chat.whatsapp.com/ISI_LINK_KAMU" class="btn whatsapp">Grup WhatsApp</a>
-    <a href="http://ISI_LINK_HOST_KAMU.com" class="btn host">Host Server</a>
+    <a href="https://chat.whatsapp.com/KICciiDxNGfCSWS6j4Vz5k" class="btn whatsapp">Grup WhatsApp</a>
+    <a href="https://dash.gtps.cloud/how-to-play/2009" class="btn host">Host Server</a>
 
     <footer>© 2026 MiamiPS</footer>
 </div>
